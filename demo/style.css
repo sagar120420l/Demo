@@ -1,0 +1,114 @@
+.navbar {
+  border-radius: 50 px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  /* margin: 0 15px; */
+}
+
+.navbar ul li a {
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #ddd;
+}
+.navbar .h1 {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.navbar .active {
+  float: left;
+  font-size: 30px;
+}
+.navbar button {
+  margin-right: 00px;
+  border-radius: 20px;
+}
+.navbar ul li {
+  margin-top: -70px;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  background-image: url("./front.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  font-size: medium;
+
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+}
+h1 {
+  font-size: 70px;
+}
+.signup-button {
+  background-color: #0780f1;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.highlight {
+  color: #ff0000;
+}
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.blue-text {
+  color: #0073e6; /* Blue color for "tify" */
+}
+
+ul .list {
+  align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

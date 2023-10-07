@@ -1,0 +1,7 @@
+<section>
+  <div class="main">
+    <img src="front.jpg" alt="">
+  </div>
+</section>
+<button class="button">sing up</button>
+<a href="#" class="active"><b>Shoptify</b></a>
